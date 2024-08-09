@@ -1,0 +1,39 @@
+{
+  "name": "tailwindcss-animate-from-to",
+  "version": "0.0.0",
+  "description": "A Tailwind CSS plugin for creating custom animations using `from` and `to` keyframes.",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "animate",
+    "animation",
+    "keyframes"
+  ],
+  "homepage": "https://github.com/jeremy-code/tailwindcss-animate-from-to#readme",
+  "bugs": "https://github.com/jeremy-code/tailwindcss-animate-from-to/issues",
+  "license": "MIT",
+  "author": "Jeremy Nguyen <nguyen.jeremyt@gmail.com> (https://jeremy.ng)",
+  "files": [
+    "src/index.d.ts"
+  ],
+  "main": "src/index.js",
+  "types": "./src/index.d.ts",
+  "repository": "github:jeremy-code/tailwindcss-animate-from-to",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.9"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || insiders"
+  },
+  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
+}
